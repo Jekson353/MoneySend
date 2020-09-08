@@ -16,9 +16,9 @@ fun main() {
     } else {
         percent
     }
-    var resultAmount = amount.toDouble() / 100
-    var resultComiss = komiss.toDouble() / 100
-    var resultAll = (amount + komiss).toDouble() / 100
+    val resultAmount = amount.toDouble() / 100
+    val resultComiss = komiss.toDouble() / 100
+    val resultAll = (amount + komiss).toDouble() / 100
 
     println("Сумма перевода $resultAmount рублей")
     println("Комиссия составила $resultComiss рублей")
